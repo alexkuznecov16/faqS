@@ -3,6 +3,7 @@ body, *{
     padding: 0;
 }
 
+/** section settings  */
 .section {
     height: 100vh;
     width: 100%;
@@ -22,6 +23,7 @@ body, *{
     padding: 0;
 }
 
+/** block settings  */
 .block {
     width: 80px;
     height: 80px;
@@ -32,6 +34,8 @@ body, *{
     align-items: center;
     margin: 0 auto;
 }
+
+/** block colors */
 .gray {
     background-color: gray;
 }
@@ -42,6 +46,8 @@ body, *{
     background-color: bisque;
 }
 
+
+/** block orders  */
 .block-1 {
     order: 1;
 }
